@@ -21,6 +21,7 @@ services:
       - "5001:80"
       - "5858:5858"
       // updated network options
+      // updated network options 2
     networks:
       - front-tier
       - back-tier
