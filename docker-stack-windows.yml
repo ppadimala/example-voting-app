@@ -21,6 +21,8 @@ services:
       - mode: host
         target: 80
         published: 5001
+        
+        // docker samples updated
     deploy:
       endpoint_mode: dnsrr
     networks:
